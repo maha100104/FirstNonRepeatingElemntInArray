@@ -1,5 +1,5 @@
 class  FirstNonRepeatingElemntInArray{
-    public static int firstNonRepeating(int arr[],int n,int m)
+    public static int firstNonRepeating(int arr[],int n)
     {
         for(int i=0;i<n;i++)
         {
@@ -17,9 +17,8 @@ class  FirstNonRepeatingElemntInArray{
     public static void main(String[] args) {
          int arr[] = { 9, 4, 9, 2, 7, 4 };
         int n = arr.length;
-        int m=0;
  
-        System.out.print(firstNonRepeating(arr, n,m));
+        System.out.print(firstNonRepeating(arr, n));
     }
 }
 /*
